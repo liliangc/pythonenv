@@ -18,7 +18,10 @@ git clone https://github.com/liliangc/fonts
 cd fonts
 ./install.sh
 8、修改vim支持python
-
+git clone https://github.com/liliangc/pythonenv
+cd pythonenv
+sh vim.sh
+9、完成配置
 
 
 
