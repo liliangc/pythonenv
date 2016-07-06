@@ -1,0 +1,24 @@
+1、安装zsh
+ubuntu：apt-get install zsh
+mac: brew install zsh
+2、切换用户shell为zsh
+chsh -s zsh
+3、下载oh-my-zsh
+git clone https://github.com/liliangc/oh-my-zsh ~/.oh-my-zsh
+4、安装oh-my-zsh
+cp ~/.zshrc ~/.zshrc.orig
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+5、更新zsh
+source .zshrc
+6、自定义zsh
+增加插件支持: plugins=(git bundler osx python)
+更改主题为agnoster: ZSH_THEME="agnoster"
+7、如果显示效果不理想执行如下操作安装powerline字体
+git clone https://github.com/liliangc/fonts
+cd fonts
+./install.sh
+8、修改vim支持python
+
+
+
+
